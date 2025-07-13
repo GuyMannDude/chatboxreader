@@ -1,39 +1,33 @@
-# Chatbox Editor – Transcribe, edit, & send
+# Chatbox Reader – View & Speak Transcribed Text
 
-A modern voice-to-text interface built with React, TypeScript, and Vite. This application allows users to transcribe speech to text, edit the transcription, and send it directly to chat applications.
+**Chatbox Reader** is a lightweight companion to the Chatbox Editor.  
+It is optimized for reading text from ChatGPT "copy text" field.
 
-## Features
+## 🔧 Features
 
-- **Voice Transcription**: Uses Web Speech API for real-time speech-to-text conversion
-- **Text Editing**: Full-featured textarea for editing transcribed text
-- **Chat Integration**: Automatically sends text to chat inputs and copies to clipboard
-- **Modern UI**: Dark gradient background with neon accents and smooth animations
-- **Mobile Responsive**: Optimized for devices with minimum 360px width
+- 🎙️ **Voice Playback**: Uses the Web Speech API to read aloud the transcribed text
+- 📋 **Clipboard Ready**: Automatically copies the latest transcript for fast sharing
+- 🖱️ **Auto-Paste Mode**: (Planned) Automatically pastes text into active input fields on left click
+- 💡 **Simple UI**: Clean, distraction-free layout optimized for listening or quick review
+- 📱 **Responsive Design**: Works on mobile, tablet, and desktop
+- 🧩 **Modular Architecture**: Easily integrates with other chatbox tools or host pages
 
-## Getting Started
+## 🚀 Getting Started
 
 1. Install dependencies:
    ```bash
    npm install
-   ```
-
 2. Start the development server:
-   ```bash
-   npm run dev
-   ```
+npm run dev
 
 3. Build for production:
-   ```bash
-   npm run build
-   ```
+npm run build
 
-## Usage
+Usage
+Click "Start" to begin voice transcription
+Speak into your microphone - text will appear in the editor
+Click "Pause" to stop transcription and edit the text manually
+Click "Send to Chat" to copy text to clipboard and send to chat applications
 
-1. Click "Start" to begin voice transcription
-2. Speak into your microphone - text will appear in the editor
-3. Click "Pause" to stop transcription and edit the text manually
-4. Click "Send to Chat" to copy text to clipboard and send to chat applications
-
-## Browser Compatibility
-
+Browser Compatibility
 Requires browsers that support the Web Speech API (Chrome, Edge, Safari).
