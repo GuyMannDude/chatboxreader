@@ -15,19 +15,22 @@ It is optimized for reading text from ChatGPT "copy text" field.
 ## 🚀 Getting Started
 
 1. Install dependencies:
-   ```bash
    npm install
+
+
 2. Start the development server:
-npm run dev
+   npm run dev
+
 
 3. Build for production:
-npm run build
+   npm run build
+
 
 Usage
-Click "Start" to begin voice transcription
-Speak into your microphone - text will appear in the editor
-Click "Pause" to stop transcription and edit the text manually
-Click "Send to Chat" to copy text to clipboard and send to chat applications
+1. Copy text from ChatGPT "copy" icon below response.
+2. Clicking in the text input field will auto-paste the clipboard contents.
+3. The Web Speech API will read the content aloud using your system voice. 
+4. Use "Pause" and "Play" for additional playback control.
 
 Browser Compatibility
 Requires browsers that support the Web Speech API (Chrome, Edge, Safari).
